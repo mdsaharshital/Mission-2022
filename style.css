@@ -126,3 +126,29 @@ small {
   padding-left: 106px;
 }
 /* community section ends here */
+
+/* footer section starts here */
+footer {
+  height: 177px;
+  width: 100%;
+  background-color: black;
+  text-align: center;
+  margin-top: 5%;
+  padding-top: 39px;
+  padding-bottom: 46px;
+}
+footer h1 {
+  font-family: "Lobster", cursive;
+  font-size: 36px;
+  color: white;
+}
+footer span {
+  font-style: normal;
+  color: #ff5959;
+}
+footer small {
+  font-family: "Manrope", sans-serif;
+  color: white;
+  font-size: 14px;
+}
+/* footer section ends here */
