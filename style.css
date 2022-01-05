@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background: #f8f8f8;
+}
+
+h1 {
+  font-family: "Yeseva One", cursive;
+  font-size: 60px;
+}
+.yellow-font {
+  color: #ffad5a;
+}
+.hr-line {
+  border-left: 4px solid #ff5959;
+  padding-left: 13px;
+  border-radius: 3px;
+}
+p {
+  font-size: 18px;
+  margin-top: 15px;
+  color: #424242;
+}
+section {
+  width: 100%;
+  height: 95vh;
+  display: flex;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.half-width {
+  width: 50%;
+  margin: auto 0;
+}
+.half-width .person-0 {
+  width: 100%;
+  padding-left: 131px;
+}
+.red-btn {
+  background-color: #ff5959;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  padding: 10px 40px;
+  margin-top: 19px;
+}
+small {
+  margin-top: 33px;
+  display: inline-block;
+}
+.my-mission {
+  flex-direction: column;
+}
+.mission-text {
+  font-family: "Poppins", sans-serif;
+  font-size: 48px;
+  color: black;
+  text-align: center;
+  width: 100%;
+}
+.cards {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding-top: 48px;
+}
+.card {
+  width: 360px;
+  height: 376px;
+  margin-right: 24px;
+  border-radius: 26px;
+  padding: 0 13px 45px 32px;
+}
+.card img {
+  width: 50%;
+  height: 50%;
+}
+.card h5 {
+  font-weight: 600;
+  font-size: 24px;
+  color: black;
+}
+.card p {
+  font-size: 16px;
+}
+.card-1 {
+  background-color: #4f9da61a;
+}
+.card-2 {
+  background-color: #ff59591a;
+}
+.card-3 {
+  background-color: #fff2ceb0;
+}
