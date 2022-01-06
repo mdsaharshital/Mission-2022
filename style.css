@@ -126,10 +126,10 @@ small {
 
 /* community section starts here */
 .community {
-  background-image: url(./images/shapes/shape-1.png);
+  background-image: url(./images/shapes/shape-6.png);
   background-position: right bottom;
   background-repeat: no-repeat;
-  background-size: 300px;
+  background-size: 500px;
 }
 .community img {
   padding-left: 106px;
@@ -141,6 +141,7 @@ small {
   flex-direction: column;
   height: 120vh;
 }
+
 .flex-creative {
   display: flex;
 }
@@ -150,6 +151,7 @@ small {
   background-color: #4f9da627;
   border-radius: 5px;
   padding: 100px 200px;
+  box-shadow: 5px 5px 10px rgba(128, 128, 128, 0.305);
 }
 .contact-section h1 {
   font-size: 30px;
@@ -179,8 +181,8 @@ small {
   border: none;
   outline: none;
   cursor: pointer;
-  margin-left: 10px;
-  box-shadow: 5px 5px 10px rgba(128, 128, 128, 0.205);
+  margin-left: 0px;
+  box-shadow: 5px 5px 10px rgba(128, 128, 128, 0.305);
 }
 
 /* creative section ends here */
